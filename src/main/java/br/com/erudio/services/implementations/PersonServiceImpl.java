@@ -33,18 +33,20 @@ public class PersonServiceImpl implements PersonService {
     public List<Person> findAll() {
         ArrayList<Person> persons = new ArrayList<>();
         for (int i = 0; i < 8; i++) {
-            Person person = mockPerson(i);
+            Person person = mockPerson();
             persons.add(person);
         }
         return persons;
     }
 
-    private Person mockPerson(int i) {
+    private Person mockPerson() {
+    	long id = counter.incrementAndGet();
+    	
         Person person = new Person();
-        person.setId(counter.incrementAndGet());
-        person.setFirstName("Person Name " + i);
-        person.setLastName("Last Name " + i);
-        person.setAddress("Some Address in Brasil " + i);
+		person.setId(id);
+        person.setFirstName("Person Name " + id);
+        person.setLastName("Last Name " + id);
+        person.setAddress("Some Address in Brasil " + id);
         return person;
     }
     
