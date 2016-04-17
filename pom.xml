@@ -14,12 +14,12 @@
     
     <dependencies>
     	
-    	<!-- Adicionando a dependencia do Spring Boot Starter Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         
+    	<!-- Adicionando a dependencia do Spring Boot Starter Actuator -->
     	<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
