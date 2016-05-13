@@ -13,4 +13,4 @@ http://localhost:8080/erudio-restful-api/sdoc.jsp
 
 As you can see Swagger provide a simple way to document US API's.
 
-![Example Page](https://github.com/leandrocgsi/simple-rest-example-hateoas/blob/master/img/api-documentation.png?raw=true)
+![Example Page](https://github.com/leandrocgsi/simple-rest-example-swagger/blob/master/img/api-documentation.png?raw=true)
