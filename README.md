@@ -5,8 +5,6 @@
 
 # Swagger API documentation 
 
-
-
 You can see the documentation API in localhost adress:
 
 ```sh
